@@ -4,7 +4,7 @@ import React from 'react'
 const Movie = () => {
    
    const [movies,setMovies] = useState([]);
-const OMDB = "http://www.omdbapi.com/?apikey=3bfa5f71&s="
+const OMDB = "https://www.omdbapi.com/?apikey=3bfa5f71&s="
    function request(url){
        var requestOptions = {
   method: 'GET',
