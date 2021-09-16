@@ -12,11 +12,12 @@ const Home = () => {
       <SearchBar></SearchBar>
       <Category category="Widow"></Category>
       <Category category="Superman"></Category>
-      <Category category="Avengers"></Category>
+      <Category category="Avenger"></Category>
 
     </Home.Wrapper>
   );
 };
+
 Home.Wrapper = styled.div`
   margin: 0 auto;
   width: 100%;

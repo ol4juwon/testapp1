@@ -17,20 +17,20 @@ MovieList.Wrapper = styled.div`
         height: 200px;
         width:100%;
         position:relative;
-        margin: 0px 13px;
-        padding
-        
-        .image,.title{
-            position: absolute;
+        .image{
+            position: relative ;
            
         }
         .title{
+            position: absolute;
              top: 80px;
-            width:100%;
+            width:80%;
             margin: 0 auto;
             text-align:center;
+            left:20px;
             p{
                 margin: 0 auto;
+                width: 80%;
                 text-align: center;
             }
             z-index:3;
@@ -42,6 +42,7 @@ MovieList.Wrapper = styled.div`
             border-radius:15px;
             top:0;
             left: 0;
+           margin: 10px;
             img{
                 border-radius: 12px;
             }
